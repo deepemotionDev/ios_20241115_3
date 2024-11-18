@@ -56,7 +56,7 @@
     <feature name="Sms">
         <param name="ios-package" value="Sms" />
     </feature>
-    <name>jubulife</name>
+    <name>주부생활</name>
     <description>jubu life</description>
     <author email="thebookdigital@gmail.com" href="https://cordova.apache.org">
         thebookcompany
@@ -111,6 +111,9 @@
     </config-file>
     <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
         <string>이 앱은 사진을 업로드하기 위해 사진 라이브러리 접근이 필요합니다.</string>
+    </config-file>
+    <config-file parent="NSUserTrackingUsageDescription" platform="ios" target="8-Info.plist">
+        <string>앱 경험을 개인화하고 광고를 맞춤화하기 위해 사용자 활동 데이터를 사용합니다.</string>
     </config-file>
     <resource-file src="GoogleService-Info.plist" target="GoogleService-Info.plist" />
     <config-file parent="NSAppTransportSecurity" platform="ios" target="*-Info.plist">
