@@ -107,12 +107,12 @@
         <string>이 앱은 사진 촬영을 위해 카메라 접근이 필요합니다.</string>
     </config-file>
     <config-file parent="NSLocationWhenInUseUsageDescription" platform="ios" target="*-Info.plist">
-        <string>이 앱은 위치 기반 서비스를 제공하기 위해 위치 접근이 필요합니다.</string>
+        <string>이 앱은 회원의 구역 설정 서비스를 제공하기 위해 위치 접근이 필요합니다.</string>
     </config-file>
     <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
         <string>이 앱은 사진을 업로드하기 위해 사진 라이브러리 접근이 필요합니다.</string>
     </config-file>
-    <config-file parent="NSUserTrackingUsageDescription" platform="ios" target="8-Info.plist">
+    <config-file parent="NSUserTrackingUsageDescription" platform="ios" target="*-Info.plist">
         <string>앱 경험을 개인화하고 광고를 맞춤화하기 위해 사용자 활동 데이터를 사용합니다.</string>
     </config-file>
     <resource-file src="GoogleService-Info.plist" target="GoogleService-Info.plist" />
